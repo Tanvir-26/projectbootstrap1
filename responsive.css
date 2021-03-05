@@ -1,0 +1,150 @@
+/* tablet mode  */
+@media only screen and (min-width:992px) and (max-width:3000px){
+    .singleinstructor{
+       width:48%
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .video{
+        text-align: center;
+    }
+    input[type="submit"]{
+        width: 150px;
+        padding: 15px 15px;
+    }
+    .sixthsection{
+        margin-top: 405px;
+    }
+    .headerbtn{
+        text-align: center;
+    }
+    .logosection{
+        text-align: center;
+    }
+
+}
+/* mobile device */
+@media only screen and (min-width:480px) and (max-width:767px){
+    .seconditem{
+        margin-top: 0px;
+
+    }
+    .thirdbox{
+        margin-left: 0px;
+    }
+    .form input, select{
+        padding: 2%;
+    }
+    input[type="submit"]{
+        width: 150px;
+        padding: 15px 15px;
+    }
+    .sixthsection{
+        margin-top: 730px;
+    
+    }
+    .fifthsection{
+        margin-top: -250px;
+        padding-bottom: 700px;
+    }
+    .seventhtext h1, p{
+        margin-left: 0px;
+    }
+    .seventhtext p{
+        margin-left: 0px;
+    }
+    .singleinstructor{
+        
+    }
+    .copyright{
+        margin: 0;
+    }
+    .seventhtext h1{
+        margin-left: -60px;
+    }
+    .footersection img {
+        margin-left: -50px;
+    }
+    .footersection ul li {
+        margin-right: -30px;
+    }
+    .footersection h3 {
+     
+        margin-left: -25px;
+    }
+    .address{
+        margin-left: -50px;
+        margin-right: -30px;
+    }
+    .logosection{
+        text-align: center;
+    }
+    .headerbtn{
+        text-align: center;
+    }
+}
+
+    /* for small device */
+@media only screen and (min-width:200px) and (max-width:479px){
+    .seconditem{
+        margin-top: 0px;
+    }
+    .thirdbox{
+        margin-left: 0px;
+    }
+    .fifthsection{
+        margin-top: -250px;
+        padding-bottom: 700px;
+    }
+    .sixthsection{
+        margin-top: 730px;
+    
+    }
+    .singleinstructor{
+       
+    }
+    .copyright{
+        margin: 0;
+    }
+    .seventhtext h1, p{
+        margin-left: 0px;
+    }
+    .seventhtext p{
+        margin-left: 0px;
+    }
+    .footersection ul {
+        
+        margin-left: -100px;
+    }
+    .priceboxbtn {
+        padding: 15px 20px;
+    }
+    .instimg{
+        width: 100%;
+    }
+    .seventhtext h1{
+        margin-left: -60px;
+    }
+    .footersection img {
+        margin-left: -50px;
+    }
+    .footersection ul li {
+        margin-right: -30px;
+    }
+    .footersection h3 {
+     
+        margin-left: -25px;
+    }
+    .address{
+        margin-left: -50px;
+        margin-right: -30px;
+    }
+    .headerbtn{
+        text-align: center;
+    }
+    .logosection{
+        text-align: center;
+    }
+    
+}

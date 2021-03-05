@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.firstsection{
+    background: #0C2B4B;
+}
+.logosection{
+    text-align: right;
+    clip-path: polygon(0% 0%,100% 0%,94% 100%,0% 100%);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.menusection ul{
+
+margin-top: 25px;
+}
+.menusection ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+.menusection ul li:first-child{
+    margin-left: -10px ;
+}
+.menusection ul li a{
+    padding: 10px 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.menusection ul li a:hover{
+    border-bottom: 2px solid yellow;
+
+}
+.iconmenu ul{
+    margin-top: 25px;
+}
+.iconmenu ul li{
+    display: inline-block;
+    padding: 10px 12px;
+}
+.iconmenu ul li:first-child{
+    margin-right: -15px;
+}
+.iconmenu .bar{
+    font-weight: 100;
+    color: grey;
+}
+.iconmenu ul li a{
+    padding: 10px 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.headerbtn{
+    margin-top: 20px;
+
+}
+.headerbtn a{
+    text-decoration: none;
+    padding: 13px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 0;
+}
+.headerbtn a:hover{
+    color:white ;
+}
+
+
+/* <!-- ===========================================================
+    Second section Start
+==============================================================--> */
+
+.secondsection{
+    background-image: url(images/bg.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 285px;
+    padding-bottom: 375px;
+}
+.secondsectioncontent h3,h6{
+    text-align: center;
+    color: white;
+}
+.secondsectioncontent h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.secondsectioncontent h6{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 35px;
+
+}
+.btna:hover{
+    color: white;
+}
+.secondsectionbutton{
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 0;
+    margin: 1%;
+    letter-spacing: 1px;
+}
+
+.second{
+    background: #0C2B4B;
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 0;
+    letter-spacing: 1px;
+}
+
+
+/* <!-- ===========================================================
+    Third section Start
+==============================================================--> */
+
+.feature{
+    margin-left: 10px;
+}
+.contentsection{
+    margin-top: 120px;
+}
+.contentsection h1, .videocontent h1{
+    font-size: 40px;
+    color: #111111;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+.contentsection p, .videocontent p{
+    text-align: justify;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.contentsection .why{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: orange;
+}
+.box1{
+    background-color: #0C2B4B;
+    padding:45px 25px;
+    margin-top: 32px;
+
+}
+.box1 img{
+    padding-bottom: 25px;
+}
+.box1 h2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.seconditem{
+    margin-top: 120px;
+    
+}
+.thirdbox{
+    margin-left: 8px;
+}
+
+/* <!-- ===========================================================
+    Fourth section Start
+==============================================================--> */
+.fourthsection{
+    position: relative;
+    z-index: 1;
+}
+.fourthsection .fourthcontent{
+    background: white;
+}
+.videocontent .why{
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 5px;
+}
+.lesson{
+    margin-right: 100px;
+}
+/* <!-- ===========================================================
+    Fifth section Start
+==============================================================--> */
+
+.formtextsection p{
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 5px;
+}
+.formtextsection h1{
+    font-size: 40px;
+    color: #111111;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+.form input, select{
+    width: 90%;
+    margin: 2% 1%;
+    padding: 3%;
+    border: 1px solid rgb(206, 206, 206);
+}
+input[type="submit"]{
+    background: #0C2B4B;
+    padding: 16px 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 180px;
+    border: none;
+    margin-top: 20px;
+}
+.fifthsection{
+    background: #f5f5f5;
+    padding-top: 300px;
+    padding-bottom: 400px;
+    margin-top: -250px;
+    position: absolute;
+    z-index: -1;
+    clip-path: polygon(50% 0, 100% 21%, 100% 100%, 50% 100%, 0 100%, 0% 21%);
+    height: 700px;
+}
+.fifthcontent{
+
+    z-index: 1;
+}
+/* <!-- ===========================================================
+    sixth section Start
+==============================================================--> */
+.sixthsection{
+    padding-top: 100px;
+    background-image: url(images/pricing-bg.jpg);
+    background-position: top center;
+    background-size: cover;
+    padding-bottom: 100px;
+    margin-top: 36%;
+    text-align: center;
+}
+
+.sixthtext p{
+    font-weight: bold;
+    color: orange;
+}
+.sixthtext h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+.pricebox{
+    background: #0C2B4B59;
+    text-align: center;
+    padding: 40px 20px;
+    width: 90%;
+    margin: 3%;
+    transition: all .7s;
+    height: auto;
+}
+.pricebox:hover{
+    background: #0C2B4B;
+}
+.pricebox:hover .priceboxbtn{
+   
+    background: #F3BD00;
+    color: white;
+}
+.pricebox h4{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.pricebox h2{
+    color: #F3BD00;
+    font-size: 55px;
+    font-weight: bold;
+}
+.pricebox h3{
+    font-size:17px ;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #223E5A;
+}
+.pricebox ul{
+    text-align: center;
+    padding:25px 0px ;
+    padding-bottom: 40px;
+}
+.pricebox ul li{
+    display:block;
+    padding: 5px 0px;
+}
+.pricebox ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.priceboxbtn{
+    text-decoration: none;
+    background: #0C2B4B;
+    padding: 16px 45px;
+    color: white;
+    font-weight: bold;
+    transition: all .7s;
+}
+
+
+/* <!-- ===========================================================
+    Seventh section Start
+==============================================================--> */
+.seventhsection{
+    padding: 10px 0px;
+
+}
+.seventhfirsttext{
+    padding-top: 50px;
+
+}
+
+.seventhtext p{
+    font-weight: bold;
+    color: orange;
+    margin: 0;
+    margin-left: 60px;
+}
+.seventhtext h1{
+    font-size: 40px;
+    color: #111111;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 25px;
+    margin-left: 60px;
+}
+.viewbutton{
+    background: #0C2B4B;
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 0;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.instructorrow{
+   display: flex;
+   flex-wrap: wrap;
+   width: 50%;
+}
+.singleinstructor{
+    border: 1px solid rgb(221, 221, 221);
+    padding: 40px 40px;
+    margin:1%;
+    width: 100%;
+}
+.instructorimg{
+    padding-right: 25px;
+    float: left;
+}
+.instru{
+    margin-bottom: 15px;
+    color: orange;
+}
+.instructorcontent p{
+ line-height: 20px;
+}
+.instructorcontent h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+.instructoricon ul{
+    margin-left: -36px;
+    margin-bottom:0px ;
+}
+.instructoricon ul li{
+    display: inline-block;
+}
+.instructoricon ul a{
+    padding: 0px 10px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* <!-- ===========================================================
+    Footer section Start
+==============================================================--> */
+
+.footersection{
+    background: #0C2B4B;
+}
+.footersection h3{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 35px;
+    font-size: 20px;
+
+}
+.footersection ul{
+    list-style-type: none;
+    margin-left: -30px;
+}
+.footersection ul li{
+    display: block;
+    padding: 5px 0px;
+}
+.footersection ul li a{
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    
+}
+.footercontent p{
+    color: rgb(179, 179, 179);
+}
+.footersection img{
+    margin-bottom: 30px;
+}
+.footercontent{
+    
+    padding-bottom: 20px;
+}
+.copyright{
+    text-align: center;
+    border-top: 1px solid #223E5A;
+    padding-top: 20px;
+    margin-right: 143px ;
+    margin-left: 143px ;
+    color: rgb(179, 179, 179);
+}
+
+/* buttons */
+.secondsectionbutton:hover{
+    cursor: pointer;
+    color: white;
+}
