@@ -83,6 +83,12 @@
     .headerbtn{
         text-align: center;
     }
+    .menusection ul li:first-child {
+    margin-left: -30px;
+    }
+    .menusection ul li {
+    padding: 10px 2px;
+    }
 }
 
     /* for small device */
@@ -146,5 +152,10 @@
     .logosection{
         text-align: center;
     }
-    
+    .menusection ul li:first-child {
+    margin-left: -30px;
+    }
+    .menusection ul li {
+    padding: 10px 2px;
+    }
 }
